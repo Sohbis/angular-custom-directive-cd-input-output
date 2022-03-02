@@ -1,0 +1,8 @@
+<p [appAdvancedBg]="'purple'" appChangeBg>
+  Start editing to see some magic happen :)
+</p>
+<app-change-detection
+  [greet]="greet"
+  (myGreet)="updateGreet($event)"
+>
+</app-change-detection>
